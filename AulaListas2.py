@@ -1,0 +1,25 @@
+"""lista = ["a", "b", "c"]
+lista2 = [1, 4, 6]"""
+
+"""lista = lista + lista2
+print(lista)"""
+
+"""lista.extend(lista2)
+print(lista)"""
+
+"""for x in lista2:
+    lista.append(x)
+print(lista)"""
+
+lista = ["a", "b", "c"]
+# Copia para as duas listas
+#lista2 = lista
+# Copia somente uma lista e nao repete para a outra lista
+lista2 = lista.copy()
+print(lista2)
+
+lista2.append("d")
+lista.append("e")
+
+print(lista)
+print(lista2)
